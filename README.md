@@ -71,9 +71,9 @@ Each project has been developed with a focus on **innovation, reliability, and p
 
 **Rajib Hasan**  
 Embedded Systems & Mechatronics Engineer  
-📧 Email: [your.email@example.com]  
-🌐 GitHub: [https://github.com/yourusername](https://github.com/yourusername)  
-🔗 LinkedIn: [https://linkedin.com/in/yourusername](https://linkedin.com/in/yourusername)
+📧 Email: [rajibhasan.mte@gmail.com]  
+🌐 GitHub: [https://github.com/rajibhasan-mte](https://github.com/yourusername)  
+🔗 LinkedIn: [https://www.linkedin.com/in/rajibhasan-mte/](https://linkedin.com/in/yourusername)
 
 ---
 
