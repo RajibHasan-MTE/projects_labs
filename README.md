@@ -24,11 +24,11 @@ Every project demonstrates a real-world solution built through interdisciplinary
 Each folder inside this repository represents a standalone project and includes:
 
 📁 Project-Name/
-┣ 📂 Firmware/
-┣ 📂 PCB_Design/
-┣ 📂 Software/
-┣ 📂 Documentation/
-┗ 📄 README.md
+    ┣ 📂 Firmware/
+    ┣ 📂 PCB_Design/
+    ┣ 📂 Software/
+    ┣ 📂 Documentation/
+    ┗ 📄 README.md
 
 
 You can explore any project for:
