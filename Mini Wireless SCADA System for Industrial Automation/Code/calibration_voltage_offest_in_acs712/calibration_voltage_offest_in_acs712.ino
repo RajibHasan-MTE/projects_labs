@@ -1,7 +1,8 @@
-const int ACS_PIN = 32;   // Safe ADC1 pin
+const int ACS_PIN = 34;   // Safe ADC1 pin
 
 // ACS712 5A sensitivity (V/A)
-const float sensitivity = 0.185;
+//const float sensitivity = 0.185;
+const float sensitivity = 0.66;
 
 const float adcVref = 3.3;
 const int adcMax = 4095;
@@ -32,6 +33,11 @@ void setup() {
 
 void loop() {
   int raw = analogRead(ACS_PIN);
+  while(1){
+    raw = analogRead(ACS_PIN);
+    Serial.println(raw);
+    delay(500);
+  }
   float voltage = (raw * adcVref) / adcMax;
 
   float current = (voltage - offsetVoltage) / sensitivity;

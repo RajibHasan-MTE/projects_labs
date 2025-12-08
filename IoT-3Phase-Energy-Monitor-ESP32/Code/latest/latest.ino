@@ -7,6 +7,7 @@ LiquidCrystal_I2C lcd(0x27, 20, 4);
 #define ZMPT_PIN 35   // Voltage sensor (ZMPT101B)
 #define ACS_PIN 34    // Current sensor (ACS712 20A)
 
+
 // ---------------------------
 // USER CALIBRATION PARAMETERS
 // ---------------------------
@@ -15,6 +16,7 @@ LiquidCrystal_I2C lcd(0x27, 20, 4);
 
 float voltageCalibration = 228.0 / 0.75; // Adjust based on your multimeter
 float ACS_SENSITIVITY = 100.0;           // mV/A for ACS712-20A
+
 int ACS_ZERO_RAW = 2048;                  // auto-calibrate at no load
 float currentCalibration = 1.27;          // Adjust based on multimeter
 float unit_rate = 10.0;                    // BDT per kWh
