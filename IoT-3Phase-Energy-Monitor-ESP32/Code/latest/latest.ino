@@ -5,7 +5,7 @@
 LiquidCrystal_I2C lcd(0x27, 20, 4);
 
 #define ZMPT_PIN 35   // Voltage sensor (ZMPT101B)
-#define ACS_PIN 34    // Current sensor (ACS712 20A)
+#define ACS_PIN 32    // Current sensor (ACS712 20A)
 
 
 // ---------------------------
